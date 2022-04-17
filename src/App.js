@@ -4,6 +4,7 @@ import About from './Pages/About/About';
 import Footer from './Pages/Home/Footer/Footer';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 import Header from './Pages/Shared/Header/Header';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/service/:serviceId' element={<ServiceDetails />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/login' element={<Login />}></Route>
+        <Route path='/register' element={<Register />}></Route>
       </Routes>
       <Footer></Footer>
     </div>
