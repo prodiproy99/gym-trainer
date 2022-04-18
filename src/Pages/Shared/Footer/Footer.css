@@ -1,10 +1,13 @@
 .footer-container{
-    background-color: #222;
-    color: #fff;
-    height: 80px;
+    background-color: #222; 
+    height: 80px; 
     padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 100px;
+}
+small{
+    color: #fff;
+    font-weight: 300;
 }

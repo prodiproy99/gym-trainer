@@ -21,8 +21,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>READY TO HARD WORK</h3>
-                     <h2>IS THE KEY TO SUCCESS</h2>
+                    <h3>READY TO HARD WORK IS THE <br/> KEY TO SUCCESS</h3>
+                      
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>INCREASE YOUR MUSCLE POWER</h3>
-                     <h2>WITH THE GYM</h2>
+                    <h3>INCREASE YOUR MUSCLE POWER <br />WITH THE GYM</h3>
+                     
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,8 +45,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>FOR FITNESS BODYAND BETTER MIND</h3>
-                     <h2>THE BEST GYM CENTER</h2>
+                    <h3>FOR FITNESS BODYAND BETTER MIND <br />THE BEST GYM CENTER</h3>
+                      
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

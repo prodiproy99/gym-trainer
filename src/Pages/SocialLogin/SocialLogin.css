@@ -1,0 +1,9 @@
+.orStyle{
+    width: 50%;
+    margin: 0 auto;
+}
+.line1, .line2{
+    width: 200px !important;
+    background-color: rgba(170, 170, 170, 1);
+    height: 2px; 
+}

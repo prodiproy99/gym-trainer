@@ -1,0 +1,13 @@
+.proceedBtn{
+    background-color: orange !important;
+    color: #fff; 
+    padding: 10px 20px; 
+    border: none !important;
+    margin-top: 70px;
+    display: block;
+    margin-bottom: 50px;
+}
+.proceedBtn:hover{
+    background-color: #212529 !important;
+    color: #fff;
+}

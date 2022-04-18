@@ -5,6 +5,7 @@ import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { useNavigate } from 'react-router-dom';
 import Loading from '../Shared/Loading/Loading';
+import './SocialLogin.css'
 
 const SocialLogin = () => {
     const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth); 
@@ -24,23 +25,23 @@ const SocialLogin = () => {
       }
     return (
         <>
-            <div className='d-flex align-items-center'>
-                <div style={{ height: 2 }} className="w-50 bg-light"></div>
+            <div className='d-flex align-items-center orStyle'>
+                <div className="line1"></div>
                 <p className='mt-2 mx-2'>or</p>
-                <div style={{ height: 2 }} className="w-50 bg-light"></div>
+                <div className="line2"></div>
             </div>
             {elementError}
             <div>
                 <button 
                     onClick={() => signInWithGoogle()}
-                className='btn btn-primary w-50 d-block text-center mx-auto my-2'>
+                className='btn btn-primary w-50 d-block text-center mx-auto my-2 loginBtn'>
                     <img src={google} alt="" />
-                    <span className='px-2'>Google Sign In</span>
+                    <span className='px-2 text-white'>Google Sign In</span>
                 </button>
                
-                <button className='btn btn-primary w-50 d-block text-center mx-auto my-2'>
+                <button className='btn btn-primary w-50 d-block text-center mx-auto my-2 loginBtn'>
                     <img src={facebook} alt="" />
-                    <span className='px-2'>Facebook Sign In</span>
+                    <span className='px-2 text-white'>Facebook Sign In</span>
                 </button> 
 
             </div>

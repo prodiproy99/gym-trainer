@@ -15,7 +15,7 @@ const Blogs = () => {
 
     return (
         <div>
-            <h2 className='text-center mt-5 mb-5'>Blogs</h2>
+            <h2 className='text-center mt-5 mb-5'>My <span>Blogs</span></h2>
             <div className="container">
                 <div className="blog-container">
                 {
