@@ -6,6 +6,7 @@ import CheckOut from './Pages/CheckOut/CheckOut';
 import Footer from './Pages/Home/Footer/Footer';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login';
+import NoteFound from './Pages/NoteFound/NoteFound';
 import Register from './Pages/Register/Register';
 import RequireAuth from './Pages/RequireAuth/RequireAuth';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
@@ -30,6 +31,7 @@ function App() {
           </RequireAuth>
 
         }></Route>
+        <Route path='*' element={<NoteFound />}></Route>
       </Routes>
       <Footer></Footer>
     </div>
