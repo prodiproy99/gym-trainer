@@ -1,8 +1,19 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Website link
+[Gym trainer](https://rad-starship-f9e9be.netlify.app/).
 
 ## Available Scripts
+
+## Project Description
+
+- used react firebase hook
+- install react router
+- used react bootstrap and flexbox for style 
+- created banner, service, about, blog,login and NotFound page
+- using useState, useEffect 
+- Responsive home page and about me page
+
 
 In the project directory, you can run:
 

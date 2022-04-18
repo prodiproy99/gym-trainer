@@ -3,3 +3,8 @@ nav a{
     text-decoration: none;
     padding: 15px;
 }
+.signOutBtn{
+    background: #222 !important;
+    border: none !important;
+    color: orange !important;
+}

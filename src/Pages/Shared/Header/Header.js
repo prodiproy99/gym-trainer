@@ -23,9 +23,9 @@ const Header = () => {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto"> 
-                            </Nav>
+                            </Nav> 
                             <Nav>
-                                <CustomLink to="/home#service">Service</CustomLink>  
+                                <CustomLink as ={Link} to="/home#service">Service</CustomLink>  
                             </Nav>
                             <Nav>
                                 <CustomLink to="/blog">Blog</CustomLink>  
@@ -36,7 +36,7 @@ const Header = () => {
                             <Nav>
                                 {
                                     user ? 
-                                    <Button onClick={handleSignOut}>Sign Out</Button>
+                                    <Button className="signOutBtn" onClick={handleSignOut}>Sign Out</Button>
                                     :
                                     <CustomLink to="/login">Login</CustomLink>
                                 }  
