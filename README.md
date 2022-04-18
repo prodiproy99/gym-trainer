@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 # Website link
-[Gym trainer](https://rad-starship-f9e9be.netlify.app/).
+[Gym trainer](https://stellar-crisp-909536.netlify.app/).
 
 ## Available Scripts
 
