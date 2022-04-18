@@ -10,27 +10,21 @@ const Register = () => {
         createUserWithEmailAndPassword,
         user,
         loading,
-    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
-    const [updateProfile, updating, updateError] = useUpdateProfile(auth);
-    const navigate = useNavigate();
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true }); 
 
-    if (user) {
-        console.log("user", user);
-    }
-
+    const navigate = useNavigate(); 
+     
     const handleSubmitRegister = async (e) => {
         e.preventDefault();
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
         // const agree = e.target.terms.checked; 
-        await createUserWithEmailAndPassword(email, password);
-        await updateProfile({ displayName: name });
-        console.log('Updated profile');
+        await createUserWithEmailAndPassword(email, password); 
+
+    }
+    if(user){
         navigate('/home')
-
-
-
     }
 
     const navigateLogin = (e) => {

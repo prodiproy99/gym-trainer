@@ -1,0 +1,19 @@
+[
+     
+    {
+        "id": 1,
+        "question": "a) What is Difference between authorization and authentication", 
+        "answer": "Verifying and confirming an employee's ID and password is called authentication, but determining which employee has access to which floor is called authorization. Imagine you are traveling and about to board a plane."
+    },
+    {
+        "id": 2,
+        "question": " b) Why are you using firebase? What other options do you have to implement authentication?", 
+        "answer": "Firebase Authentication provides backend services, easy-to-use SDKs, and ready-made UI libraries for authenticating users to your app. Authentication can be performed with passwords, phone numbers, federated identity providers like Google, Facebook, and Twitter, and more."
+    },
+    {
+        "id": 3,
+        "question": "c) What other services does firebase provide other than authentication", 
+        "answer": "There are many services which Firebase provides, Most useful of them are: Cloud firebase, Cloud function, Hosting, Cloud Storage, Google Analytics, Predictions, Cloud Messaging"
+    }
+    
+]

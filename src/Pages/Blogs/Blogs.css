@@ -1,0 +1,11 @@
+.blog-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+/* make services responsive with media quary */
+@media only screen and (max-width: 576px) {
+    .blog-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
