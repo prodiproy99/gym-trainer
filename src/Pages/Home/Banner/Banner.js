@@ -21,8 +21,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3>READY TO HARD WORK</h3>
+                     <h2>IS THE KEY TO SUCCESS</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,8 +33,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>INCREASE YOUR MUSCLE POWER</h3>
+                     <h2>WITH THE GYM</h2>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,10 +45,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                    </p>
+                    <h3>FOR FITNESS BODYAND BETTER MIND</h3>
+                     <h2>THE BEST GYM CENTER</h2>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
