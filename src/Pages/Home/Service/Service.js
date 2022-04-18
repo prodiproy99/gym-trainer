@@ -15,7 +15,7 @@ const Service = ({ service }) => {
             <div className="service-info p-2">
                 <h3>{name}</h3>
                 <p>Price: {price}</p>
-                <p>{description.length < 50 ? description : description.slice(0, 50) + '...'}</p>
+                <p>{description.length < 100 ? description : description.slice(0, 100) + '...'}</p>
                 <button onClick={() => navigateServiceDetails(id)} className='bg-primary text-white border-0 rounded p-2'>Book: {name}</button>
             </div>
         </div>
