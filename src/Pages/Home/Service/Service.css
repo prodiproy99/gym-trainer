@@ -1,4 +1,41 @@
 .service{
-    text-align: center;
-    border: 1px solid lightgray;
+    text-align: left; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px 0 rgb(43 52 59 / 10%);
+}
+.img-container{ 
+    overflow: hidden; 
+}
+.service:hover img{
+    transform: scale(1.2);
+    overflow: visible;
+    display: block;
+    transition: 0.5s ease-in-out;
+}
+ 
+.service-info{
+    margin: 15px; 
+}
+.service-info h3{
+    font-size: 22px;
+    color: #29282D;
+
+}
+.service-info h4{
+    font-size: 18px;
+    color: orange;
+
+}
+.service-info p{
+   color: #6c6c6c;
+
+}
+.bookBtn{
+    background-color: orange;
+    color: #fff; 
+    padding: 10px 20px;
+}
+.bookBtn:hover{
+    background-color: #212529;
+    color: #fff;
 }

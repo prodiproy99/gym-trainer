@@ -3,6 +3,13 @@
    grid-template-columns: repeat(3, 1fr);
    gap: 20px;
 }
+.services-title{
+    color: #29282D;
+    margin-top: 80px !important;
+    margin-bottom: 50px;
+    font-size: 35px;
+    text-align: center;
+}
 
 /* make services responsive with media quary */
 @media only screen and (max-width: 576px) {

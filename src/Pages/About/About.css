@@ -3,3 +3,22 @@
     justify-content: center;
     align-items: center;
 }
+h2{
+    font-size: 22px;
+    color: #29282D;
+}
+span{
+    color: orange;
+}
+p{
+    color: #6c6c6c;
+}
+
+/* make services responsive with media quary */ 
+@media (max-width: 800px) {
+    .about-me{ 
+        display: flex;
+        flex-direction: column-reverse !important;
+        margin-top: 50px !important;
+    }
+}

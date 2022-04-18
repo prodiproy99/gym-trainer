@@ -11,12 +11,14 @@ const Service = ({ service }) => {
     }
     return (
         <div id="service" className='service'>
+            <div className= 'img-container'>
             <img className="w-100" src={img} alt="" />
+            </div>
             <div className="service-info p-2">
                 <h3>{name}</h3>
-                <p>Price: {price}</p>
-                <p>{description.length < 100 ? description : description.slice(0, 100) + '...'}</p>
-                <button onClick={() => navigateServiceDetails(id)} className='bg-primary text-white border-0 rounded p-2'>Book: {name}</button>
+                <h4>Price: ${price}</h4>
+                <p>{description.length < 50 ? description : description.slice(0, 50) + '...'}</p>
+                <button onClick={() => navigateServiceDetails(id)} className='bookBtn text-white border-0 rounded'>Book: {name}</button>
             </div>
         </div>
     );
