@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Pages/About/About';
 import Blogs from './Pages/Blogs/Blogs';
-import CheckOut from './Pages/CheckOut/CheckOut'; 
+import CheckOut from './Pages/CheckOut/CheckOut';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login';
 import NoteFound from './Pages/NoteFound/NoteFound';
@@ -19,7 +19,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/home' element={<Home />}></Route>
-        <Route path='/service/:serviceId' element={<ServiceDetails />}></Route>
+        <Route path='/service/:serviceId' element={
+          <RequireAuth>
+            <ServiceDetails />
+          </RequireAuth>
+        }></Route>
         <Route path='/blog' element={<Blogs />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/login' element={<Login />}></Route>
@@ -33,7 +37,7 @@ function App() {
         }></Route>
         <Route path='*' element={<NoteFound />}></Route>
       </Routes>
-       <Footer></Footer>
+      <Footer></Footer>
     </div>
   );
 }
