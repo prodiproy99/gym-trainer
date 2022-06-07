@@ -1,11 +1,13 @@
 .footer-container{
     background-color: #222; 
-    height: 80px; 
-    padding: 10px;
+    height: 80px;  
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 70px;
+    position: absolute;
+    bottom: 0px;
+    top: 100%;
 }
 small{
     color: #fff;
